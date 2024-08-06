@@ -1,0 +1,19 @@
+{
+    "NUM_JOINTS": 7,
+    "NUM_EPOCHS": 10000,
+    "DEVICE": "cuda:0",
+    "EARLY_STOPPING": 1000,
+    "NUM_HIDDEN": 85,
+    "HIDDEN_LAYERS": 3,
+    "BASELINE_DATA": "/data/real-world/Jul12_12-54-43_val.h5",
+    "LEARNING_RATE": 2.8e-3,
+    "TEST_SPLIT": 0.2,
+    "RANDOM_SPLIT": true,
+    "TENSORBOARD": false,
+    "SEED": 42,
+    "SAVE": false,
+    "PBAR": true,
+    "SAVE_BEST": false,
+    "FILENAME": null,
+    "NAME": "eval_duration"
+}
