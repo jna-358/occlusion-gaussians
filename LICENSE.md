@@ -1,0 +1,1 @@
+The licenses for each of the subprojects are stored in the respective subdirectories.

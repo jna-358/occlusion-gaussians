@@ -1,0 +1,16 @@
+*.pth
+*.pkl
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+__pycache__
+*.pyc
+/cache
+/data
+/output
+/conda_envs
+bash_history.txt
+/rigid_gaussians/output
+/webserver/log.txt
