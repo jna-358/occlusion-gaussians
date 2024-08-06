@@ -3,7 +3,7 @@ from train import train
 import json
 import numpy as np
 
-hours = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5]
+hours = [1.0] #, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5]
 num_reps = 5
 
 if __name__ == "__main__":
@@ -12,6 +12,7 @@ if __name__ == "__main__":
         with open(os.path.join("training_configs", "eval_duration.json"), "r") as f:
             config = json.load(f)
         config["FILENAME"] = os.path.join("/",
+                                          "content",
                                           "data",
                                           "real-world",
                                           "eval_duration", 
@@ -20,8 +21,8 @@ if __name__ == "__main__":
             _, balanced_acc_1m_test = train(config_default=config)
             results[h].append(balanced_acc_1m_test)
 
-    os.makedirs("output", exist_ok=True)
-    with open(ouput_path:=os.path.join("output", "eval_duration.json"), "w") as f:
+    os.makedirs("/content/output/occlusion_mlp", exist_ok=True)
+    with open(ouput_path:=os.path.join("/content/output/occlusion_mlp", "eval_duration.json"), "w") as f:
         json.dump(results, f)
     print(f"Saved results to {ouput_path}")
 

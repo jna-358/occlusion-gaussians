@@ -14,7 +14,7 @@
     "SAVE": false,
     "PBAR": true,
     "SAVE_BEST": true,
-    "FILENAME": "/data/blender/baseline_train.pkl",
+    "FILENAME": "/content/data/blender/baseline_train.pkl",
     "NAME": "uniform_synthetic_baseline",
     "HYPER_RESULTS": "Best trial config: {'LEARNING_RATE': 0.03401951741104553, 'NUM_HIDDEN': 90, 'HIDDEN_LAYERS': 3}"
 }

@@ -10,10 +10,10 @@ from utils.rotations import get_rotation_matrix_torch
 import debugpy
 import pandas as pd
 
-checkpoint = "/data/pretrained_models/rigid_gaussians_application_pretrained.pth"
-source_dir = "/data/rgb-10min"
-calibration_file = "/data/real-world/pose_calibration.npz"
-simulation_file = "/data/real-world/simulation_combined.h5"
+checkpoint = "/content/data/pretrained_models/rigid_gaussians_application_pretrained.pth"
+source_dir = "/content/data/rgb-10min"
+calibration_file = "/content/data/real-world/pose_calibration.npz"
+simulation_file = "/content/data/real-world/simulation_combined.h5"
 
 num_steps_max = 10000
 
@@ -144,7 +144,7 @@ def main():
     pos_error_history = pos_error_history[to_keep]
 
     # Save to file
-    output_dir = "data/trajectory_optimization"
+    output_dir = "/content/output/occlusion_mlp/nullspace_optimization"
     os.makedirs(output_dir, exist_ok=True)
     time_str = datetime.datetime.now().strftime("%b%d_%H-%M")
     with open(

@@ -5,7 +5,7 @@
     "EARLY_STOPPING": 5000,
     "NUM_HIDDEN": 90,
     "HIDDEN_LAYERS": 1,
-    "BASELINE_DATA": "/data/real-world/Jul12_12-54-43_val.h5",
+    "BASELINE_DATA": "/content/data/real-world/Jul12_12-54-43_val.h5",
     "LEARNING_RATE": 3.44e-2,
     "TEST_SPLIT": 0.2,
     "TENSORBOARD": false,
@@ -14,7 +14,7 @@
     "PBAR": true,
     "SAVE_BEST": true,
     "RANDOM_SPLIT": false,
-    "FILENAME": "/data/real-world/simulation_combined.h5",
+    "FILENAME": "/content/data/real-world/simulation_combined.h5",
     "NAME": "rigid_gaussians_train",
     "HYPER_RESULTS": "Best trial config: {'LEARNING_RATE': 0.03440132534177984, 'NUM_HIDDEN': 90, 'HIDDEN_LAYERS': 1}"
 }

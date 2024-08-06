@@ -11,10 +11,10 @@ import debugpy
 import pandas as pd
 import argparse
 
-checkpoint = "/data/pretrained_models/rigid_gaussians_application_pretrained.pth"
-source_dir = "/data/rgb-10min"
-calibration_file = "/data/real-world/pose_calibration.npz"
-simulation_file = "/data/real-world/simulation_combined.h5"
+checkpoint = "/content/data/pretrained_models/rigid_gaussians_application_pretrained.pth"
+source_dir = "/content/data/rgb-10min"
+calibration_file = "/content/data/real-world/pose_calibration.npz"
+simulation_file = "/content/data/real-world/simulation_combined.h5"
 
 num_steps_max = 10000
 
@@ -127,19 +127,8 @@ def main():
                 f"Visibility: {loss_visibility:.2e}; Endpoints: {loss_endpoints:.2e}; Cohesion: {loss_cohesion:.2e}"
             )
 
-    # # Print final angles
-    # angles_final = X_param.detach().numpy()[0].tolist()
-    # angles_final = [round(angle, 4) for angle in angles_final]
-    # print(f"Final angles: {angles_final}")
-
-    # # Subsample angle history
-    # to_keep = subsample_movement(angle_history, dist=0.001)
-    # angle_history = angle_history[to_keep, :]
-    # visibility_history = visibility_history[to_keep]
-    # pos_error_history = pos_error_history[to_keep]
-
     # Save to file
-    output_dir = "data/trajectory_optimization"
+    output_dir = "/content/output/occlusion_mlp/trajectory_optimization"
     os.makedirs(output_dir, exist_ok=True)
     time_str = datetime.datetime.now().strftime("%b%d_%H-%M")
     with open(
