@@ -17,7 +17,20 @@ This repository contains the official implementation of the paper *Occlusion Avo
 This research was supported by the *Catalyst: Leaders Julius von Haast Fellowship (23-VUW-019-JVH)*. Additionally, it received funding from the project *OP der Zukunft*, which is part of the *Recovery Assistance for Cohesion and the Territories of Europe (REACT-EU)* program.
 
 # Prequisites
-This repository includes a Dockerfile to ensure a consistent environment. To build the Docker image, run the script `build_docker.sh`. Afterwards, you can start the container with `run_docker.sh`.
+This repository includes a Dockerfile to ensure a consistent environment. To build the Docker image, run the script `build_docker.sh`. Afterwards, you can start the container with `run_docker.sh`. The following dependencies are required:
+- Docker (tested with version 26.1.3)
+- NVIDIA Container Toolkit (tested with version 1.15.0)
+- NVIDIA GPU with CUDA support (tested with GeForce RTX A6000)
+
+The current implementation was tested on Ubuntu 22.04 with CUDA 12.3. For other GPUs, modify the following lines in the Dockerfile:
+```Dockerfile
+FROM nvidia/cuda:12.3.2-devel-ubuntu22.04
+ENV TORCH_CUDA_ARCH_LIST=Ampere
+```
+Depending on the specific GPU architecture and CUDA version, further adjustments may be necessary.
+
+To obtain the dataset and pretrained models, run the script `python get_data.py`.
+
 
 # Usage
 The script `run.py` provides a convenient way to run the different parts of the pipeline. The following commands are available:
