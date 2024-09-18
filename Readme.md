@@ -3,6 +3,14 @@
 
 This repository contains the official implementation of the paper *Occlusion Avoidance for Robotic Manipulators using Rigid Gaussian Splatting* as submitted to *SN Computer Science*. The paper is a post-publication and extension of the conference paper [*Learning Occlusions in Robotic Systems: How to Prevent Robots from Hiding Themselves*](https://github.com/jna-358/occlusion_robots_hiding). 
 
+<p align="center">
+<img src="images/norden-logo.png" alt="logo_norden" width="30%"/>
+<img src="images/eu-logo.jpg" alt="logo_eu" width="30%"/>
+</p>
+<p align="center">
+    <img src="images/cau-logo.svg" alt="logo_cau" width="30%"/>
+</p>
+
 # Authors
 
 - **Jakob Nazarenus (Corresponding Author)**  
@@ -29,15 +37,6 @@ This repository contains the official implementation of the paper *Occlusion Avo
 - **Fang-Lue Zhang**  
   [ORCID: 0000-0002-8728-8726](https://orcid.org/0000-0002-8728-8726)  
   _School of Engineering and Computer Science, Victoria University of Wellington, New Zealand_
-
-
-<p align="center">
-<img src="images/norden-logo.png" alt="logo_norden" width="30%"/>
-<img src="images/eu-logo.jpg" alt="logo_eu" width="30%"/>
-</p>
-<p align="center">
-    <img src="images/cau-logo.svg" alt="logo_cau" width="30%"/>
-</p>
 
 # Funding
 This research was supported by the *Catalyst: Leaders Julius von Haast Fellowship (23-VUW-019-JVH)*. Additionally, it received funding from the project *OP der Zukunft*, which is part of the *Recovery Assistance for Cohesion and the Territories of Europe (REACT-EU)* program.
