@@ -1,11 +1,40 @@
 # Occlusion Avoidance for Robotic Manipulators using Rigid Gaussian Splatting
-J. Nazarenus, S. Reichhuber, R. Koch, S. Tomforde, S. Kou, F. Zhang
-
-jna@informatik.uni-kiel.de
-
 ![test](images/header.gif)
 
 This repository contains the official implementation of the paper *Occlusion Avoidance for Robotic Manipulators using Rigid Gaussian Splatting* as submitted to *SN Computer Science*. The paper is a post-publication and extension of the conference paper [*Learning Occlusions in Robotic Systems: How to Prevent Robots from Hiding Themselves*](https://github.com/jna-358/occlusion_robots_hiding). 
+
+# Authors
+
+- **Jakob Nazarenus**  
+  [ORCID: 0000-0002-6800-2462](https://orcid.org/0000-0002-6800-2462)  
+  Email: [jna@informatik.uni-kiel.de](mailto:jna@informatik.uni-kiel.de)  
+  _Department of Computer Science, Kiel University, Germany_
+
+- **Simon Reichhuber**  
+  [ORCID: 0000-0001-8951-8962](https://orcid.org/0000-0001-8951-8962)  
+  Email: [sir@informatik.uni-kiel.de](mailto:sir@informatik.uni-kiel.de)  
+  _Department of Computer Science, Kiel University, Germany_
+
+- **Reinhard Koch**  
+  [ORCID: 0000-0003-4398-1569](https://orcid.org/0000-0003-4398-1569)  
+  Email: [rk@informatik.uni-kiel.de](mailto:rk@informatik.uni-kiel.de)  
+  _Department of Computer Science, Kiel University, Germany_
+
+- **Sven Tomforde**  
+  [ORCID: 0000-0002-5825-8915](https://orcid.org/0000-0002-5825-8915)  
+  Email: [st@informatik.uni-kiel.de](mailto:st@informatik.uni-kiel.de)  
+  _Department of Computer Science, Kiel University, Germany_
+
+- **Simin Kou**  
+  [ORCID: 0000-0002-7222-2214](https://orcid.org/0000-0002-7222-2214)  
+  Email: [simin.kou@vuw.ac.nz](mailto:simin.kou@vuw.ac.nz)  
+  _School of Engineering and Computer Science, Victoria University of Wellington, New Zealand_
+
+- **Fang-Lue Zhang**  
+  [ORCID: 0000-0002-8728-8726](https://orcid.org/0000-0002-8728-8726)  
+  Email: [fanglue.zhang@vuw.ac.nz](mailto:fanglue.zhang@vuw.ac.nz)  
+  _School of Engineering and Computer Science, Victoria University of Wellington, New Zealand_
+
 
 <p align="center">
 <img src="images/norden-logo.png" alt="logo_norden" width="30%"/>
