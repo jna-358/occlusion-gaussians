@@ -1,5 +1,6 @@
 # Occlusion Avoidance for Robotic Manipulators using Rigid Gaussian Splatting
 J. Nazarenus, S. Reichhuber, R. Koch, S. Tomforde, S. Kou, F. Zhang
+
 jna@informatik.uni-kiel.de
 
 ![test](images/header.gif)
