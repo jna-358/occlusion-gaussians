@@ -1,9 +1,10 @@
 # Occlusion Avoidance for Robotic Manipulators using Rigid Gaussian Splatting
 J. Nazarenus, S. Reichhuber, R. Koch, S. Tomforde, S. Kou, F. Zhang
+jna@informatik.uni-kiel.de
 
 ![test](images/header.gif)
 
-This repository contains the official implementation of the paper *Occlusion Avoidance for Robotic Manipulators using Rigid Gaussian Splatting*. The paper is a post-publication and extension of the conference paper [*Learning Occlusions in Robotic Systems: How to Prevent Robots from Hiding Themselves*](https://github.com/jna-358/occlusion_robots_hiding).
+This repository contains the official implementation of the paper *Occlusion Avoidance for Robotic Manipulators using Rigid Gaussian Splatting* as submitted to *SN Computer Science*. The paper is a post-publication and extension of the conference paper [*Learning Occlusions in Robotic Systems: How to Prevent Robots from Hiding Themselves*](https://github.com/jna-358/occlusion_robots_hiding). 
 
 <p align="center">
 <img src="images/norden-logo.png" alt="logo_norden" width="30%"/>
