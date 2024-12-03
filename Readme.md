@@ -79,7 +79,7 @@ During training (`rigid_gaussians_train`), go to `http://127.0.0.1:5000/` to obs
 ![Rigid Gaussians Training](images/rigid_train.gif)
 
 ## Rigid Gaussians Interactive
-After running the interactive script (`rigid_gaussians_interactive`), go to `http://127.0.0.1:5000/interactive` to change the joint angles and view the rendered result in real-time. A public demo is available at [this link](https://rigid-gaussians.nazarenus.dev).
+After running the interactive script (`rigid_gaussians_interactive`), go to `http://127.0.0.1:5000/interactive` to change the joint angles and view the rendered result in real-time. A public demo is available at [this link](https://rigid-gaussians.nazarenus.dev/interactive).
 ![Rigid Gaussians Interactive](images/rigid_interactive.gif).
 
 ## Occlusion Avoidance
