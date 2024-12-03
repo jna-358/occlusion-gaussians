@@ -195,7 +195,7 @@ def render_occlusion(viewpoint_camera,
 
 
     # Rasterize visible Gaussians to image, obtain their radii (on screen). 
-    rendered_image, radii = rasterizer(
+    rendered_image, radii, *_ = rasterizer(
         means3D = means3D,
         means2D = screenspace_points,
         shs = shs,
@@ -374,7 +374,7 @@ def render(viewpoint_camera,
     origin_2d = origin_2d[:2] / origin_2d[2]
 
     # Rasterize visible Gaussians to image, obtain their radii (on screen). 
-    rendered_image, radii = rasterizer(
+    rendered_image, radii, *_ = rasterizer(
         means3D = means3D,
         means2D = screenspace_points,
         shs = shs,
