@@ -129,6 +129,7 @@ def render_occlusion(viewpoint_camera,
         sh_degree=pc.active_sh_degree,
         campos=viewpoint_camera.camera_center,
         prefiltered=False,
+        antialiasing=False,
         debug=pipe.debug
     )
 
@@ -254,6 +255,7 @@ def render(viewpoint_camera,
         sh_degree=pc.active_sh_degree,
         campos=viewpoint_camera.camera_center,
         prefiltered=False,
+        antialiasing=False,
         debug=pipe.debug
     )
 
